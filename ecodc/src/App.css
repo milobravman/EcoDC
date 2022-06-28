@@ -4,5 +4,12 @@
 
 #menu {
   float: left;
-  width: 200px;
+}
+
+#menu-div {
+  float: left;
+}
+
+#title {
+  text-align: center;
 }

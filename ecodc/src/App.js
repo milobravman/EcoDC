@@ -1,13 +1,13 @@
 
 import './App.css';
-import Header from './Header';
+import Menu from './Menu';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Header id= "menu"/>
-        <h3>Eco Dc</h3>
+        <Menu id= "menu" className="App-head"/>
+        <h3 id= "title" className='App-head'>Eco Dc</h3>
       </header>
     </div>
   );
