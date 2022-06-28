@@ -9,7 +9,8 @@ export default function BasicMenu() {
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
-  const handleClose = () => {
+  const handleClose = (event) => {
+    console.log("Hello")
     setAnchorEl(null);
   };
 
