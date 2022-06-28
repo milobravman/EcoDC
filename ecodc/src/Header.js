@@ -22,7 +22,7 @@ export default function BasicMenu() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
-        Dashboard
+        Recorces
       </Button>
       <Menu
         id="basic-menu"
@@ -33,9 +33,9 @@ export default function BasicMenu() {
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>Recycling</MenuItem>
+        <MenuItem onClick={handleClose}>Empty</MenuItem>
+        <MenuItem onClick={handleClose}>Empty</MenuItem>
       </Menu>
     </div>
   );
