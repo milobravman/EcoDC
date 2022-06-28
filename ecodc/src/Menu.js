@@ -2,6 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+//import { Link } from "react-router-dom";
 
 export default function BasicMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -13,6 +14,10 @@ export default function BasicMenu() {
     console.log("Hello")
     setAnchorEl(null);
   };
+
+  const HandleRecycle = (event) =>{
+    window.location.href = "/Recycle"
+  }
 
   return (
     <div id="menu-div">
@@ -34,7 +39,7 @@ export default function BasicMenu() {
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem onClick={handleClose}>Recycling</MenuItem>
+        <MenuItem onClick={HandleRecycle}>Recycling</MenuItem>
         <MenuItem onClick={handleClose}>Empty</MenuItem>
         <MenuItem onClick={handleClose}>Empty</MenuItem>
       </Menu>
