@@ -29,3 +29,12 @@
   background-color: azure;
 }
 
+#Recycling-page-title{
+  text-align: center;
+  margin-top: 45px;
+}
+
+#Recycle-Info{
+  width: 50%;
+  margin-left: 25%;
+}
