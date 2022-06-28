@@ -1,14 +1,16 @@
 
 import './App.css';
-import Menu from './Menu';
+import Home from './Home';
+import Recycle from './Recycle';
+import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Menu id= "menu" className="App-head"/>
-        <h3 id= "title" className='App-head'>Eco Dc</h3>
-      </header>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Recycle" element={<Recycle/>}/>
+      </Routes>
     </div>
   );
 }
