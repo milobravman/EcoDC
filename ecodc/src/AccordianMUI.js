@@ -27,8 +27,7 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-            Aliquam eget maximus est, id dignissim quam.
+          Our goal is to get every recyclable material into a blue bin WITHOUT including any nonrecyclables that can get the entire content banished to the trash. Click here for a guide to the most impactful things to put in and leave out.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -45,9 +44,7 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus,
-            varius pulvinar diam eros in elit. Pellentesque convallis laoreet
-            laoreet.
+          There's a whole world of recycling opportunities beyond the blue bin. Plastic wrap & plastic mailers, batteries, food waste, and more! Click here for a guide.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -58,15 +55,14 @@ export default function ControlledAccordions() {
           id="panel3bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            Recycling Advocacy
+            Recycle DC
           </Typography>
           <Typography sx={{ color: 'text.secondary' }}>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit
-            amet egestas eros, vitae egestas augue. Duis vel est augue.
+          There's only so much anyone can do on their own. Next-generation progress comes from enforcement, advocacy, and regulations. Click here to connect
           </Typography>
         </AccordionDetails>
       </Accordion>
