@@ -22,14 +22,21 @@ export default function ControlledAccordions() {
           id="panel1bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            Recycle Better:
+          <span className='RecycleBetter'>Recycle Better</span>
           </Typography>
-          <Typography sx={{ color: 'text.secondary' }}> Our Goal: Everything that can get recycled goes into the Blue Bin. Whatever could get the Blue Bin banished to trash stays out.  Click here for a Guide.
-.</Typography>
+          <Typography > 
+            <span id='Ourgoal'>Our Goal: </span>
+            <span id='Everything'>Everything that</span>
+            <span id='can'> can </span>
+            <span id='getR'>get recycled goes into the Blue Bin. </span>
+            <span id='whatever'>Whatever could get the Blue Bin</span>
+            <span id='banished'> banished to trash </span>
+            <span id='stays'>stays out</span>
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Our goal is to get every recyclable material into a blue bin WITHOUT including any nonrecyclables that can get the entire content banished to the trash. Click here for a guide to the most impactful things to put in and leave out.
+
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -37,16 +44,19 @@ export default function ControlledAccordions() {
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
-          id="panel2bh-header"
-        >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>Recycle Bigger</Typography>
-          <Typography sx={{ color: 'text.secondary' }}>
-          Beyond the Bin, there’s a whole world of Recycling Opportunities for plastic wrap, plastic mailers, food waste, batteries, and more!  Click here for a Guide.
+          id="panel2bh-header">
+          <Typography sx={{ width: '33%', flexShrink: 0 }}>
+            <span className='RecycleBetter'>Recycle Better</span>
+          </Typography>
+          <Typography >
+            <span id='Beyond'>Beyond the bin, </span>
+            <span id='theresa'>there's a </span>
+            <span id='wholeworld'>whole world od Recycling Opportunities </span>
+            <span id='forplastic'>for plastic wrap, plastic mailers, food waste, batteries, and more!</span>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          There's a whole world of recycling opportunities beyond the blue bin. Plastic wrap & plastic mailers, batteries, food waste, and more! Click here for a guide.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -57,16 +67,17 @@ export default function ControlledAccordions() {
           id="panel3bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            Recycle DC
+          <span className='RecycleBetter'>Recycle DC</span>
           </Typography>
-          <Typography sx={{ color: 'text.secondary' }}>
-          We can do even more as a city than we can do one-by-one.  Next-Gen Progress comes from advocacy, enforcement, and regulations. Click here to Connect.
+          <Typography>
+            <span id='Wecan'>We can do even more as a city than we can do one-by-one. </span>
+            <span id='Next'>Next-Gen Progress </span>
+            <span id='comes'>comes from advocacy, enforcement, and regulations.</span>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           {/* <img src={testImage}></img> */}
           <Typography>
-          There's only so much anyone can do on their own. Next-generation progress comes from enforcement, advocacy, and regulations. Click here to connect
           </Typography>
         </AccordionDetails>
       </Accordion>
