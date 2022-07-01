@@ -4,6 +4,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+// import testImage from './logo192.png'
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -21,9 +22,10 @@ export default function ControlledAccordions() {
           id="panel1bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            Recycle Better
+            Recycle Better:
           </Typography>
-          <Typography sx={{ color: 'text.secondary' }}></Typography>
+          <Typography sx={{ color: 'text.secondary' }}> Our Goal: Everything that can get recycled goes into the Blue Bin. Whatever could get the Blue Bin banished to trash stays out.  Click here for a Guide.
+.</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -39,7 +41,7 @@ export default function ControlledAccordions() {
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>Recycle Bigger</Typography>
           <Typography sx={{ color: 'text.secondary' }}>
-
+          Beyond the Bin, there’s a whole world of Recycling Opportunities for plastic wrap, plastic mailers, food waste, batteries, and more!  Click here for a Guide.
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -58,9 +60,11 @@ export default function ControlledAccordions() {
             Recycle DC
           </Typography>
           <Typography sx={{ color: 'text.secondary' }}>
+          We can do even more as a city than we can do one-by-one.  Next-Gen Progress comes from advocacy, enforcement, and regulations. Click here to Connect.
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          {/* <img src={testImage}></img> */}
           <Typography>
           There's only so much anyone can do on their own. Next-generation progress comes from enforcement, advocacy, and regulations. Click here to connect
           </Typography>

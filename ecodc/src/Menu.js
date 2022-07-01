@@ -26,7 +26,8 @@ export default function BasicMenu() {
         aria-controls={open ? 'basic-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
-        onClick={handleClick}
+        onMouseEnter={handleClick}
+        onMouseLeave={console.log("foo")}
       >
         Recorces
       </Button>
