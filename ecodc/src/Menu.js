@@ -24,13 +24,15 @@ export default function BasicMenu() {
 
   return (
     <div id="menu-div"
+    onMouseLeave={console.log("out")}
     >
       <Button
         id="basic-button"
         aria-controls={open ? 'basic-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
-        onMouseOver={handleClick}
+        onMouseEnter={handleClick}
+        
        >
         Recorces
       </Button>

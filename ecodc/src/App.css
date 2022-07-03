@@ -42,9 +42,7 @@
   font-weight: 700;
   text-decoration: underline; 
 }
-#Ourgoal{
-  
-}
+
 #Everything{
   color: blue;
 }
@@ -67,16 +65,12 @@
 #stays{
   color: rgb(166, 28 , 0);
 }
-#Wecan{
-  
-}
+
 #Next{
   font-weight: 700;
   color: darkgreen;
 }
-#comes{
 
-}
 #Beyond{
   font-weight: 700;
   color: darkgreen;
@@ -84,4 +78,14 @@
 
 #wholeworld{
   color: darkgreen;
+}
+
+#testing-hover{
+  margin-top: 10%;
+  color: azure;
+  text-align: center;
+  border:1px solid black;
+  width: 50%;
+  margin-left: 25%;
+  height: 200%;
 }
