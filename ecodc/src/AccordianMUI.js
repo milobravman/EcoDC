@@ -25,7 +25,7 @@ export default function ControlledAccordions() {
           <span className='RecycleBetter'>Recycle Better</span>
           </Typography>
           <Typography > 
-            <span id='Ourgoal'>Our Goal: </span>
+            <span id='ourGoal'>Our Goal: </span>
             <span id='Everything'>Everything that</span>
             <span id='can'> can </span>
             <span id='getR'>get recycled goes into the Blue Bin. </span>
