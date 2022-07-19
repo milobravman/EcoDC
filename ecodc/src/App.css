@@ -81,3 +81,8 @@
 #wholeworld{
   color: darkgreen;
 }
+
+#textField{
+  position: absolute;
+  bottom: 10px;
+}
