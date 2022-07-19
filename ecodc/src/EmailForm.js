@@ -6,9 +6,10 @@ function EmailForm() {
             <TextField
           fullWidth
           id="outlined-textarea"
-          label="Multiline Placeholder"
+          label="Contacts us"
           placeholder="Placeholder"
           multiline
+          //color='white'
             />
         </div>
     
