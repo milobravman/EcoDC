@@ -84,5 +84,11 @@
 
 #textField{
   position: absolute;
-  bottom: 10px;
+  bottom: .7%;
+  left: 25.03%;
+  width: 50%;
+}
+
+#outlined-basic{
+  background-color: white;
 }
