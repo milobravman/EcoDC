@@ -1,9 +1,16 @@
 import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import SendIcon from '@mui/icons-material/Send';
 
 function EmailForm() {
     return(
         <div id= "textField">
-            <TextField
+          <Button variant="contained" endIcon={<SendIcon />} sx={{
+              marginBottom: '1%'
+          }}>
+              Send
+          </Button>
+          <TextField
           fullWidth
           id="outlined-textarea"
           label="Contacts us"
@@ -12,8 +19,7 @@ function EmailForm() {
           sx={{
               backgroundColor: "white"
           }}
-          //color='white'
-            />
+          />
         </div>
     
     )
