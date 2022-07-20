@@ -3,12 +3,22 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 
 function EmailForm() {
+
+    const handleSend = (event) => {
+        console.log("hello")
+    }
+
     return(
         <div id= "textField">
-          <Button variant="contained" endIcon={<SendIcon />} sx={{
-              marginBottom: '1%'
-          }}>
-              Send
+          <Button 
+            variant="contained" 
+            endIcon={<SendIcon />} 
+            onClick={handleSend} 
+            sx={{
+                marginBottom: '1%'
+            }}
+            >
+            Send
           </Button>
           <TextField
           fullWidth
