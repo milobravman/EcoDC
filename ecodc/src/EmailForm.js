@@ -2,10 +2,19 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 
+
 function EmailForm() {
 
-    const handleSend = (event) => {
-        console.log("hello")
+    const handleSend = () => {
+        var response = document.querySelector("#outlined-textarea").value;
+        const requestOptions = {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(response)
+        };
+        fetch('',requestOptions)
+            .then(response => response.json())
+            .then(data => console.log(data))
     }
 
     return(
