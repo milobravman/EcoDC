@@ -9,6 +9,9 @@ function EmailForm() {
           label="Contacts us"
           placeholder="Placeholder"
           multiline
+          sx={{
+              backgroundColor: "white"
+          }}
           //color='white'
             />
         </div>
