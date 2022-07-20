@@ -2,7 +2,7 @@
 import './App.css';
 import Home from './Home';
 import Recycle from './Recycle';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (

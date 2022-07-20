@@ -12,7 +12,7 @@ function EmailForm() {
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(response)
         };
-        fetch('',requestOptions)
+        fetch('http://localhost:3001/responses',requestOptions)
             .then(response => response.json())
             .then(data => console.log(data))
     }
