@@ -7,13 +7,15 @@ function EmailForm() {
 
     const handleSend = () => {
         var response = document.querySelector("#outlined-textarea").value;
+        var value = {"value": response};
+        console.log(response);
         const requestOptions = {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify(response)
+            body: JSON.stringify(value)
         };
         fetch('http://localhost:3001/responses',requestOptions)
-            .then(response => response.json())
+            .then(sentBack => sentBack.json())
             .then(data => console.log(data))
     }
 
