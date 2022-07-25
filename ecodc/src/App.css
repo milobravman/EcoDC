@@ -92,3 +92,23 @@
 #outlined-basic{
   background-color: white;
 }
+
+.bold{
+  font-weight: 700;
+}
+
+.italics{
+  font-style: italic;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
