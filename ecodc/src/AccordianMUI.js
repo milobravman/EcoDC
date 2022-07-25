@@ -46,10 +46,49 @@ export default function ControlledAccordions() {
               <h3>Goes in!</h3>
               <ol>
                 <li>
-                  <span> The usual stuff </span>
+                  <span> The usual stuff: </span>
+                  <span>paper, cardboard, metal cans, plastic bottles & jugs, milk cartons, glass </span>
+                </li>
+                <li>
+                  <span> Pizza boxes </span>
+                  <span>(first remove crusts and small plastic items—grease is fine!)</span>
+                </li>
+                <li>
+                  <span> Any rigid plastic </span>
+                  <span>that isn't PVC, any color </span>
+                </li>
+                <li>
+                  <span> Plastic bottle caps</span>
+                  <span> (just put them back on bottle)</span>
                 </li>
               </ol>
             </div>
+            <div>
+              <h3>Stays out!</h3>
+              <ol>
+                <li>
+                  <span> Plastic bags. </span>
+                  <span> If it's in a plastic bag, it gets trashed.</span>
+                </li>
+                <li>
+                  <span> Wet cardboard. </span>
+                  <span> If it's wet, it gets trashed.</span>
+                </li>
+                <li>
+                  <span>  Flexible plastic. </span>
+                  <span>If it's plastic wrap or dry cleaning bags, it gets trashed. </span>
+                </li>
+                <li>
+                  <span> Anything smaller than 2x2 inches.</span>
+                </li>
+                <li>
+                  <span> Anything you're unsure of. </span>
+                  <span> When in doubt, throw it out.</span>
+                </li>
+              </ol>
+            </div>
+            <p>Getting this much right is 90% of the bin battle and plenty good enough. If you're obsessive like me, and want to go the extra mile, <a href='https://google.com'>click here for more</a>.</p>
+
           </Typography>
         </AccordionDetails>
       </Accordion>
