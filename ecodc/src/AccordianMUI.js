@@ -36,7 +36,20 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-
+            {/* test goes here */}
+            <div>
+              <span id ='keep'> Keep non-recyclables out of your blue bin.</span>
+              <span id ='non-r'> Non-recyclables spoil the bin</span>
+              <span id ='AND'> AND MAYBE THE WHOLE TRUCK!</span>
+            </div>
+            <div>
+              <h3>Goes in!</h3>
+              <ol>
+                <li>
+                  <span> The usual stuff </span>
+                </li>
+              </ol>
+            </div>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -48,6 +61,7 @@ export default function ControlledAccordions() {
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
             <span className='RecycleBetter'>Recycle Better</span>
           </Typography>
+            {/* test goes here */}
           <Typography >
             <span id='Beyond'>Beyond the bin, </span>
             <span id='theresa'>there's a </span>
@@ -57,6 +71,7 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
+            {/* test goes here */}
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -78,6 +93,7 @@ export default function ControlledAccordions() {
         <AccordionDetails>
           {/* <img src={testImage}></img> */}
           <Typography>
+            {/* test goes here */}
           </Typography>
         </AccordionDetails>
       </Accordion>
