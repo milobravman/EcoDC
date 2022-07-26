@@ -22,16 +22,16 @@ export default function ControlledAccordions() {
           id="panel1bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-          <span className='RecycleBetter'>Recycle Better</span>
+          <span className='bold underline'>Recycle Better</span>
           </Typography>
           <Typography > 
-            <span id='ourGoal'>Our Goal: </span>
-            <span id='Everything'>Everything that</span>
-            <span id='can'> can </span>
-            <span id='getR'>get recycled goes into the Blue Bin. </span>
-            <span id='whatever'>Whatever could get the Blue Bin</span>
-            <span id='banished'> banished to trash </span>
-            <span id='stays'>stays out</span>
+            <span > &mdash; Our Goal: </span>
+            <span className='blue'>Everything that </span>
+            <span className='blue bold underline'>can</span>
+            <span className='blue'> get recycled goes into the Blue Bin. </span>
+            <span className='red'>Whatever could get the Blue Bin</span>
+            <span className='red bold italics'> banished to trash </span>
+            <span className='red'>stays out</span>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
