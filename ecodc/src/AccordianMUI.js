@@ -111,8 +111,9 @@ export default function ControlledAccordions() {
           <Typography>
               {/* test goes here */}
               <div>
-                <span>Food waste: </span>
-                <span> Keep food out of the landfill</span>
+                <span className='bold underline'>Food waste:</span>
+                <> </>
+                <span className='red underline'> Keep food out of the landfill</span>
                 <span>! Composting produces significantly less greenhouse gas AND puts nutrients back in the soil. </span>
                 <ol>
                   <li>DC offers free food waste drop-offs at 10 farmer's markets around the city. <a href='https://dpw.dc.gov/foodwastedropoff'>https://dpw.dc.gov/foodwastedropoff</a></li>
@@ -120,30 +121,36 @@ export default function ControlledAccordions() {
                 </ol>
 
               </div>
+              <br></br>
               <div>
-                <span>Flexible plastic:</span>
-                <span> You CAN recycle all kinds of flexible plastic—</span>
-                <span>but NOT in the blue bin</span>
+                <span className='bold underline'>Flexible plastic:</span>
+                <span > You CAN recycle all kinds of flexible plastic—</span>
+                <span className='red underline'>but NOT in the blue bin</span>
                 <span>.  Clean plastic bags, Ziplocs, wrappers, plastic Amazon mailers, and drycleaner bags are recyclable at many spots around the city!  Grocery stores (Safeway, Giant, and Target) are the most common drop-off spots. Usually there is a big bin near one of the doors where you can drop off your</span>
-                <span> clean</span>
+                <span className='green'> clean</span>
                 <span> plastic film. <a href='https://bagandfilmrecycling.org/'>https://bagandfilmrecycling.org/</a> for a drop-off directory</span>
               </div>
+              <br></br>
               <div>
-                <span>Yard waste:</span>
-                <span> Keep yard waste out of the landfill</span>
+                <span className='bold underline'>Yard waste:</span>
+                <> </>
+                <span className='red underline'> Keep yard waste out of the landfill</span>
                 <span>! Composting produces significantly less greenhouse gas AND puts nutrients back in the soil. DC does collect yard waste and the service is free, but it is by appointment only. <a href='https://dpw.dc.gov/yard-waste'>https://dpw.dc.gov/yard-waste</a></span>
               </div>
+              <br></br>
               <div>
-                <span>Batteries and more</span>
+                <span className='bold underline'>Batteries and more</span>
                 <span>:  Moms Organic Market accepts batteries, cork, shoes, eyeglasses, cell phones & tablets, as well as organic waste.  Downside: It's in Arlington and I don't know how to do this, except by car.<a href='https://momsorganicmarket.com/recycle-center/'>https://momsorganicmarket.com/recycle-center/</a></span>
               </div>
+              <br></br>
               <div>
-                <span>Glass:</span>
-                <span>Twist</span>
+                <span className='bold underline'>Glass:</span>
+                <span className='green'>Twist</span>
                 <span>!  While glass is allowed in the blue bin, it isn't actually recycled. Instead, it's used as a methane-blocking daily cover in the landfill. Not a bad choice. But, you can also recycle your glass in Arlington. <a href='https://www.arlingtonva.us/Government/Programs/Recycling-and-Trash/Locations/Quincy-Park-Recycling-Drop-Off-Center'>https://www.arlingtonva.us/Government/Programs/Recycling-and-Trash/Locations/Quincy-Park-Recycling-Drop-Off-Center</a></span>
               </div>
+              <br></br>
               <div>
-                <span>Paint</span>
+                <span className='bold underline'>Paint</span>
                 <span>: This is kind of a niche product for most recyclers, but you can recycle paint. Pretty cool.<a href='https://www.paintcare.org/states/district-of-columbia/'>https://www.paintcare.org/states/district-of-columbia/</a></span>
             </div>
           </Typography>
