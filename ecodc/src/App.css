@@ -40,47 +40,6 @@
   width: 50%;
   margin-left: 25%;
 }
-.RecycleBetter{
-  font-weight: 700;
-  text-decoration: underline; 
-}
-
-#Everything{
-  color: blue;
-}
-#can{
-  color: blue;
-  font-weight: 700;
-  font-style: italic;
-}
-#getR{
-  color: blue;
-}
-#whatever{
-  color: rgb(166, 28 , 0);
-}
-#banished{
-  font-weight: 700;
-  font-style: italic;
-  color: rgb(166, 28 , 0);
-}
-#stays{
-  color: rgb(166, 28 , 0);
-}
-
-#Next{
-  font-weight: 700;
-  color: darkgreen;
-}
-
-#Beyond{
-  font-weight: 700;
-  color: darkgreen;
-}
-
-#wholeworld{
-  color: darkgreen;
-}
 
 #textField{
   position: absolute;
@@ -111,4 +70,8 @@
 
 .green{
   color: green;
+}
+
+.blue{
+  color:blue;
 }

@@ -97,14 +97,18 @@ export default function ControlledAccordions() {
           aria-controls="panel2bh-content"
           id="panel2bh-header">
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            <span className='RecycleBetter'>Recycle Better</span>
+            <span className='bold underline'>Recycle Bigger</span>
           </Typography>
            
           <Typography >
-            <span id='Beyond'>Beyond the bin, </span>
-            <span id='theresa'>there's a </span>
-            <span id='wholeworld'>whole world od Recycling Opportunities </span>
-            <span id='forplastic'>for plastic wrap, plastic mailers, food waste, batteries, and more!</span>
+            <span className='green bold'>Beyond the bin, </span>
+            <span >there's a whole world of opportunities to recycle </span>
+            <span className='green'>food waste, </span>
+            <span className='blue'>flexible plastic, </span>
+            <span className='green'>yard waste, </span>
+            <span className='blue'>paint, </span>
+            <span className='green'>glass, </span>
+            <span className='blue'>batteries, and more!</span>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -163,12 +167,12 @@ export default function ControlledAccordions() {
           id="panel3bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-          <span className='RecycleBetter'>Recycle DC</span>
+          <span className='bold underline'>Recycle DC</span>
           </Typography>
           <Typography>
-            <span id='Wecan'>We can do even more as a city than we can do one-by-one. </span>
-            <span id='Next'>Next-Gen Progress </span>
-            <span id='comes'>comes from advocacy, enforcement, and regulations.</span>
+            <span >We can do much more as a city than we can do one-by-one. </span>
+            <span className='bold green'>Next-Gen Progress </span>
+            <span >comes from advocacy, enforcement, and regulations.</span>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
