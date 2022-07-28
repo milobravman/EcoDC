@@ -5,6 +5,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 // import testImage from './logo192.png'
+import InteralAccordian from './InterialAccordian'
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -113,8 +114,8 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-              {/* test goes here */}
-              <div>
+            <InteralAccordian/>
+              {/* <div>
                 <span className='bold underline'>Food waste:</span>
                 <> </>
                 <span className='red underline'> Keep food out of the landfill</span>
@@ -156,7 +157,8 @@ export default function ControlledAccordions() {
               <div>
                 <span className='bold underline'>Paint</span>
                 <span>: This is kind of a niche product for most recyclers, but you can recycle paint. Pretty cool.<a href='https://www.paintcare.org/states/district-of-columbia/'>https://www.paintcare.org/states/district-of-columbia/</a></span>
-            </div>
+            </div> */}
+
           </Typography>
         </AccordionDetails>
       </Accordion>
