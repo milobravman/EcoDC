@@ -75,3 +75,11 @@
 .blue{
   color:blue;
 }
+
+.large{
+  font-size: 22px;
+}
+
+.regular{
+  font-size: 20px;
+}

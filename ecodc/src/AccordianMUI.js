@@ -23,16 +23,16 @@ export default function ControlledAccordions() {
           id="panel1bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-          <span className='bold underline'>Recycle Better</span>
+          <span className='bold underline large'>Recycle Better</span>
           </Typography>
           <Typography > 
-            <span > &mdash; Our Goal: </span>
-            <span className='blue'>Everything that </span>
-            <span className='blue bold underline'>can</span>
-            <span className='blue'> get recycled goes into the Blue Bin. </span>
-            <span className='red'>Whatever could get the Blue Bin</span>
-            <span className='red bold italics'> banished to trash </span>
-            <span className='red'>stays out</span>
+            <span className='regular '> &mdash; Our Goal: </span>
+            <span className='regular blue'>Everything that </span>
+            <span className='regular blue bold underline'>can</span>
+            <span className='regular blue'> get recycled goes into the Blue Bin. </span>
+            <span className='regular red'>Whatever could get the Blue Bin</span>
+            <span className='regular red bold italics'> banished to trash </span>
+            <span className='regular red'>stays out</span>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -58,7 +58,7 @@ export default function ControlledAccordions() {
                   <span className='bold'>that isn't PVC, any color </span>
                 </li>
                 <li>
-                  <span> Plastic bottle caps</span>
+                  <span className='bold'> Plastic bottle caps</span>
                   <span> (just put them back on bottle)</span>
                 </li>
               </ol>
@@ -98,18 +98,18 @@ export default function ControlledAccordions() {
           aria-controls="panel2bh-content"
           id="panel2bh-header">
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            <span className='bold underline'>Recycle Bigger</span>
+            <span className='bold underline large'>Recycle Bigger</span>
           </Typography>
            
           <Typography >
-            <span className='green bold'>Beyond the bin, </span>
-            <span >there's a whole world of opportunities to recycle </span>
-            <span className='green'>food waste, </span>
-            <span className='blue'>flexible plastic, </span>
-            <span className='green'>yard waste, </span>
-            <span className='blue'>paint, </span>
-            <span className='green'>glass, </span>
-            <span className='blue'>batteries, and more!</span>
+            <span className='regular green bold'>Beyond the bin, </span>
+            <span className='regular'>there's a whole world of opportunities to recycle </span>
+            <span className='regular green'>food waste, </span>
+            <span className='regular blue'>flexible plastic, </span>
+            <span className='regular green'>yard waste, </span>
+            <span className='regular blue'>paint, </span>
+            <span className='regular green'>glass, </span>
+            <span className='regular blue'>batteries, and more!</span>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -125,12 +125,12 @@ export default function ControlledAccordions() {
           id="panel3bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-          <span className='bold underline'>Recycle DC</span>
+          <span className='bold underline large'>Recycle DC</span>
           </Typography>
           <Typography>
-            <span >We can do much more as a city than we can do one-by-one. </span>
-            <span className='bold green'>Next-Gen Progress </span>
-            <span >comes from advocacy, enforcement, and regulations.</span>
+            <span className='regular '>We can do much more as a city than we can do one-by-one. </span>
+            <span className='regular bold green'>Next-Gen Progress </span>
+            <span className='regular '>comes from advocacy, enforcement, and regulations.</span>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
