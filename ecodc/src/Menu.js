@@ -32,7 +32,7 @@ export default function BasicMenu() {
         aria-expanded={open ? 'true' : undefined}
         onMouseOver={handleClick}
        >
-        Recorces
+        Resources
       </Button>
       <div id = "temp">
         <Menu
