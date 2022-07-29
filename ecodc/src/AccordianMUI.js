@@ -88,7 +88,6 @@ export default function ControlledAccordions() {
                 </li>
               </ol>
             </div>
-            <p>Getting this much right is 90% of the bin battle and plenty good enough. If you're obsessive like me, and want to go the extra mile, <a href='https://google.com'>click here for more</a>.</p>
             <More/>
           </Typography>
         </AccordionDetails>

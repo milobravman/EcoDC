@@ -54,7 +54,7 @@ export default function CustomizedAccordions() {
     <div>
       <Accordion expanded={expanded === 'panel'} onChange={handleChange('panel')}>
         <AccordionSummary aria-controls="paneld-content" id="paneld-header">
-          <Typography><span className='bold underline'>Paint</span></Typography>
+          <Typography><span className='bold underline'>Getting this much right is 90% of the bin battle and plenty good enough. If you're obsessive like me, and want to go the extra mile, click here</span></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -68,7 +68,9 @@ export default function CustomizedAccordions() {
                 </li>
                 <li className='regular'>
                     Put smaller plastic items in larger item with the same <span className='underline'>identification number</span>.
-                    
+                    <br></br>
+                    <br></br>
+                    <img src='images/recycleIDs.jpg' alt=''/>
                 </li>
             </ol>
             <h3 className='large'>Getting answers to items you're unsure of</h3>
