@@ -58,17 +58,21 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
+            <h3 className='large'>Getting around the 2x2 size limit:</h3>
             <ol>
                 <li className='regular'>
                     Put small pieces of paper in a paper grocery bag and staple shut.
                 </li>
-                <li>
+                <li className='regular'>
                     Keep lid attached to metal can when opening.
                 </li>
-                <li>
-                    Put smaller plastic items in larger item with the same identification number.
+                <li className='regular'>
+                    Put smaller plastic items in larger item with the same <span className='underline'>identification number</span>.
+                    
                 </li>
             </ol>
+            <h3 className='large'>Getting answers to items you're unsure of</h3>
+            <p>Charlotte Dreizen's twitter feed is all you'll ever need. Read through it or better yet—ask her <a href='https://twitter.com/CharDreizen'>@CharDreizen!</a></p>
           </Typography>
         </AccordionDetails>
       </Accordion>
