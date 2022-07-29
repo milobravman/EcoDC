@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 // import testImage from './logo192.png'
 import InteralAccordian from './InterialAccordian'
+import More from './InternialAccordian2'
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -88,7 +89,7 @@ export default function ControlledAccordions() {
               </ol>
             </div>
             <p>Getting this much right is 90% of the bin battle and plenty good enough. If you're obsessive like me, and want to go the extra mile, <a href='https://google.com'>click here for more</a>.</p>
-
+            <More/>
           </Typography>
         </AccordionDetails>
       </Accordion>
