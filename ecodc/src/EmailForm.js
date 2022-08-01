@@ -5,7 +5,10 @@ import SendIcon from '@mui/icons-material/Send';
 
 function EmailForm() {
 
+    //console.log("hi")
+
     const handleSend = () => {
+        console.log("hello from line 9");
         var response = document.querySelector("#outlined-textarea").value;
         var value = {"value": response};
         console.log(response);
@@ -16,7 +19,7 @@ function EmailForm() {
         };
         fetch('http://localhost:3001/responses',requestOptions)
             .then(sentBack => sentBack.json())
-            .then(data => console.log(data))
+            .then(data => console.log("the" + data))
     }
 
     return(
@@ -31,6 +34,7 @@ function EmailForm() {
             >
             Send
           </Button>
+          <Button onClick = {console.log("hello")}>hi</Button>
           <TextField
           fullWidth
           id="outlined-textarea"
