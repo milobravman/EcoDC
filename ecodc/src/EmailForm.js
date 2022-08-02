@@ -34,7 +34,7 @@ function EmailForm() {
             >
             Send
           </Button>
-          <Button onClick = {console.log("hello")}>hi</Button>
+          {/* <Button onClick = {console.log("hello")}>hi</Button> */}
           <TextField
           fullWidth
           id="outlined-textarea"
