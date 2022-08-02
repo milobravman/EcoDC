@@ -83,3 +83,8 @@
 .regular{
   font-size: 20px;
 }
+
+#LandingTitle{
+  margin-top: 10%;
+  text-align: center;
+}
