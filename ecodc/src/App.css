@@ -85,6 +85,19 @@
 }
 
 #LandingTitle{
-  margin-top: 10%;
+  margin-top: 5%;
   text-align: center;
 }
+
+.float-container {
+
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+  margin: 1%;
+  display: inline-block;
+}  
