@@ -15,13 +15,13 @@ export default function MultiActionAreaCard() {
   
     return (
         <Grid container justifyContent="center" >
-                <Card className="float-child" sx={{ maxWidth: 345 }}>
+                <Card className="float-child" sx={{ maxWidth: 345, minWidth: 345 }}>
                 <CardActionArea>
                     <CardMedia
                     component="img"
                     height="140"
                     width="345"
-                    image="/static/images/cards/contemplative-reptile.jpg"
+                    image="/images/park.png"
                     alt="green iguana"
                     />
                     <CardContent>
@@ -41,13 +41,13 @@ export default function MultiActionAreaCard() {
                 </CardActions>
                 </Card>
 
-                <Card className="float-child" sx={{ maxWidth: 345 }}>
+                <Card className="float-child" sx={{ maxWidth: 345, minWidth: 345 }}>
                 <CardActionArea>
                     <CardMedia
                     component="img"
                     height="140"
                     width="345"
-                    image="/static/images/cards/contemplative-reptile.jpg"
+                    image="/images/emissions.png"
                     alt="green iguana"
                     />
                     <CardContent>
@@ -67,13 +67,13 @@ export default function MultiActionAreaCard() {
                     </Button>
                 </CardActions>
                 </Card>
-                <Card className="float-child" sx={{ maxWidth: 345 }}>
+                <Card className="float-child" sx={{ maxWidth: 345, minWidth: 345 }}>
                 <CardActionArea>
                     <CardMedia
                     component="img"
                     height="140"
                     width="345"
-                    image="/static/images/cards/contemplative-reptile.jpg"
+                    image="/images/greenery.png"
                     alt="green iguana"
                     />
                     <CardContent>
@@ -83,7 +83,7 @@ export default function MultiActionAreaCard() {
                     <Typography variant="body2" color="text.secondary">
                         Trees
                         Garden/Yards
-                        Parks
+                        Parksd
                     </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -94,13 +94,12 @@ export default function MultiActionAreaCard() {
                 </CardActions>
                 </Card>
 
-                <Card className="float-child" sx={{ maxWidth: 345 }}>
+                <Card className="float-child" sx={{ maxWidth: 345, minWidth: 345 }}>
                 <CardActionArea>
                     <CardMedia
                     component="img"
                     height="140"
-                    width="345"
-                    image="/static/images/cards/contemplative-reptile.jpg"
+                    image="/images/recycling_can.jpg"
                     alt="green iguana"
                     />
                     <CardContent>
@@ -119,13 +118,13 @@ export default function MultiActionAreaCard() {
                 </CardActions>
                 </Card>
 
-                <Card className="float-child" sx={{ maxWidth: 345 }}>
+                <Card className="float-child" sx={{ maxWidth: 345 , minWidth: 345}}>
                 <CardActionArea>
                     <CardMedia
                     component="img"
                     height="140"
                     width="345"
-                    image="/static/images/cards/contemplative-reptile.jpg"
+                    image="/images/water.png"
                     alt="green iguana"
                     />
                     <CardContent>
