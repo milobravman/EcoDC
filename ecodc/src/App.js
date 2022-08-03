@@ -1,7 +1,7 @@
 
 import './App.css';
 import Home from './Home';
-import Recycle from './Recycle';
+import Recycle from './Components/Recycle';
 import { Routes, Route } from "react-router-dom";
 
 function App() {

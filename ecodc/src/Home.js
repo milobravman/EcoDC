@@ -1,7 +1,7 @@
 import "./App.css"
 // import Menu from './Menu';
-import EmailForm from './EmailForm';
-import LandingPage from './LandingPage'
+import EmailForm from './Components/EmailForm';
+import LandingPage from './Components/LandingPage'
 
 function Home() {
     return (
