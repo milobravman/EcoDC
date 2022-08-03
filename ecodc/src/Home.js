@@ -11,7 +11,7 @@ function Home() {
                 <h3 id= "title" className='App-head'>Eco Dc</h3>
             </header>
             <LandingPage/>
-            <EmailForm/>
+            <EmailForm />
         </>
     )
 }

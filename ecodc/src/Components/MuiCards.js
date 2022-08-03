@@ -20,16 +20,95 @@ export default function MultiActionAreaCard() {
                     <CardMedia
                     component="img"
                     height="140"
+                    width="345"
                     image="/static/images/cards/contemplative-reptile.jpg"
                     alt="green iguana"
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        Lizard
+                        Water
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                        Streams
+                        Rivers + streams
+                    </Typography>
+                    </CardContent>
+                </CardActionArea>
+                <CardActions>
+                    <Button size="small" color="primary">
+                    Info
+                    </Button>
+                </CardActions>
+                </Card>
+
+                <Card className="float-child" sx={{ maxWidth: 345 }}>
+                <CardActionArea>
+                    <CardMedia
+                    component="img"
+                    height="140"
+                    width="345"
+                    image="/static/images/cards/contemplative-reptile.jpg"
+                    alt="green iguana"
+                    />
+                    <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                        Climate Change
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                        Renewable energy
+
+                        Lower carbon footprint
+                    </Typography>
+                    </CardContent>
+                </CardActionArea>
+                <CardActions>
+                    <Button size="small" color="primary">
+                    INFO
+                    </Button>
+                </CardActions>
+                </Card>
+                <Card className="float-child" sx={{ maxWidth: 345 }}>
+                <CardActionArea>
+                    <CardMedia
+                    component="img"
+                    height="140"
+                    width="345"
+                    image="/static/images/cards/contemplative-reptile.jpg"
+                    alt="green iguana"
+                    />
+                    <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                        Greenery
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                        Trees
+                        Garden/Yards
+                        Parks
+                    </Typography>
+                    </CardContent>
+                </CardActionArea>
+                <CardActions>
+                    <Button size="small" color="primary">
+                    info
+                    </Button>
+                </CardActions>
+                </Card>
+
+                <Card className="float-child" sx={{ maxWidth: 345 }}>
+                <CardActionArea>
+                    <CardMedia
+                    component="img"
+                    height="140"
+                    width="345"
+                    image="/static/images/cards/contemplative-reptile.jpg"
+                    alt="green iguana"
+                    />
+                    <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                        Waste
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                        Recycling
                     </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -45,65 +124,17 @@ export default function MultiActionAreaCard() {
                     <CardMedia
                     component="img"
                     height="140"
+                    width="345"
                     image="/static/images/cards/contemplative-reptile.jpg"
                     alt="green iguana"
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        Lizard
+                        Outdoor Life
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
-                    </Typography>
-                    </CardContent>
-                </CardActionArea>
-                <CardActions>
-                    <Button size="small" color="primary">
-                    Share
-                    </Button>
-                </CardActions>
-                </Card>
-                <Card className="float-child" sx={{ maxWidth: 345 }}>
-                <CardActionArea>
-                    <CardMedia
-                    component="img"
-                    height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    alt="green iguana"
-                    />
-                    <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        Lizard
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
-                    </Typography>
-                    </CardContent>
-                </CardActionArea>
-                <CardActions>
-                    <Button size="small" color="primary">
-                    Share
-                    </Button>
-                </CardActions>
-                </Card>
-
-                <Card className="float-child" sx={{ maxWidth: 345 }}>
-                <CardActionArea>
-                    <CardMedia
-                    component="img"
-                    height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    alt="green iguana"
-                    />
-                    <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        Lizard
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                        bike paths
+                        Bulk Board
                     </Typography>
                     </CardContent>
                 </CardActionArea>
