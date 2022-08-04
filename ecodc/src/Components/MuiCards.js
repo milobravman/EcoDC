@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import { Button, CardActions } from '@mui/material';
 import Grid from '@mui/material/Grid';
 
 
@@ -12,6 +12,9 @@ import Grid from '@mui/material/Grid';
 export default function MultiActionAreaCard() {
 
 
+    const HandleRecycle = (event) =>{
+        window.location.href = "/Recycle"
+      }
   
     return (
         <Grid 
@@ -20,7 +23,7 @@ export default function MultiActionAreaCard() {
         sx ={{ maxWidth: 1400}}
         >
                 <Card className="float-child" sx={{ maxWidth: 345, minWidth: 345 }}>
-                <CardActionArea>
+            
                     <CardMedia
                     component="img"
                     height="250"
@@ -37,7 +40,7 @@ export default function MultiActionAreaCard() {
                         Rivers + streams
                     </Typography>
                     </CardContent>
-                </CardActionArea>
+                
                 <CardActions>
                     <Button size="small" color="primary">
                     Info
@@ -46,7 +49,7 @@ export default function MultiActionAreaCard() {
                 </Card>
 
                 <Card className="float-child" sx={{ maxWidth: 345, minWidth: 345 }}>
-                <CardActionArea>
+            
                     <CardMedia
                     component="img"
                     height="200"
@@ -63,7 +66,7 @@ export default function MultiActionAreaCard() {
                         Lower carbon footprint
                     </Typography>
                     </CardContent>
-                </CardActionArea>
+                
                 <CardActions>
                     <Button size="small" color="primary">
                     INFO
@@ -71,7 +74,7 @@ export default function MultiActionAreaCard() {
                 </CardActions>
                 </Card>
                 <Card className="float-child" sx={{ maxWidth: 345, minWidth: 345 }}>
-                <CardActionArea>
+            
                     <CardMedia
                     component="img"
                     height="250"
@@ -88,7 +91,7 @@ export default function MultiActionAreaCard() {
                         Parksd
                     </Typography>
                     </CardContent>
-                </CardActionArea>
+                
                 <CardActions>
                     <Button size="small" color="primary">
                     info
@@ -97,7 +100,6 @@ export default function MultiActionAreaCard() {
                 </Card>
 
                 <Card className="float-child" sx={{ maxWidth: 345, minWidth: 345 }}>
-                <CardActionArea>
                     <CardMedia
                     component="img"
                     height="250"
@@ -112,16 +114,16 @@ export default function MultiActionAreaCard() {
                         Recycling
                     </Typography>
                     </CardContent>
-                </CardActionArea>
+
                 <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" onClick={HandleRecycle}>
                     Share
                     </Button>
                 </CardActions>
                 </Card>
 
                 <Card className="float-child" sx={{ maxWidth: 345 , minWidth: 345}}>
-                <CardActionArea>
+            
                     <CardMedia
                     component="img"
                     height="250"
@@ -138,7 +140,7 @@ export default function MultiActionAreaCard() {
                         Bulk Board
                     </Typography>
                     </CardContent>
-                </CardActionArea>
+                
                 <CardActions>
                     <Button size="small" color="primary">
                     Share
