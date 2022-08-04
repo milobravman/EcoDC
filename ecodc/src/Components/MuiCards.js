@@ -14,12 +14,16 @@ export default function MultiActionAreaCard() {
 
   
     return (
-        <Grid container justifyContent="center" >
+        <Grid 
+        container 
+        justifyContent="center"
+        sx ={{ maxWidth: 1400}}
+        >
                 <Card className="float-child" sx={{ maxWidth: 345, minWidth: 345 }}>
                 <CardActionArea>
                     <CardMedia
                     component="img"
-                    height="140"
+                    height="250"
                     width="345"
                     image="/images/park.png"
                     alt="green iguana"
@@ -45,8 +49,7 @@ export default function MultiActionAreaCard() {
                 <CardActionArea>
                     <CardMedia
                     component="img"
-                    height="140"
-                    width="345"
+                    height="200"
                     image="/images/emissions.png"
                     alt="green iguana"
                     />
@@ -71,8 +74,7 @@ export default function MultiActionAreaCard() {
                 <CardActionArea>
                     <CardMedia
                     component="img"
-                    height="140"
-                    width="345"
+                    height="250"
                     image="/images/greenery.png"
                     alt="green iguana"
                     />
@@ -98,7 +100,7 @@ export default function MultiActionAreaCard() {
                 <CardActionArea>
                     <CardMedia
                     component="img"
-                    height="140"
+                    height="250"
                     image="/images/recycling_can.jpg"
                     alt="green iguana"
                     />
@@ -122,8 +124,8 @@ export default function MultiActionAreaCard() {
                 <CardActionArea>
                     <CardMedia
                     component="img"
-                    height="140"
-                    width="345"
+                    height="250"
+                    width="200"
                     image="/images/water.png"
                     alt="green iguana"
                     />
