@@ -43,7 +43,7 @@ export default function MultiActionAreaCard() {
                 
                 <CardActions>
                     <Button size="small" color="primary">
-                    Info
+                    Learn more
                     </Button>
                 </CardActions>
                 </Card>
@@ -69,7 +69,7 @@ export default function MultiActionAreaCard() {
                 
                 <CardActions>
                     <Button size="small" color="primary">
-                    INFO
+                    Learn more
                     </Button>
                 </CardActions>
                 </Card>
@@ -94,7 +94,7 @@ export default function MultiActionAreaCard() {
                 
                 <CardActions>
                     <Button size="small" color="primary">
-                    info
+                    Learn more
                     </Button>
                 </CardActions>
                 </Card>
@@ -117,7 +117,7 @@ export default function MultiActionAreaCard() {
 
                 <CardActions>
                     <Button size="small" color="primary" onClick={HandleRecycle}>
-                    Share
+                    Learn more
                     </Button>
                 </CardActions>
                 </Card>
@@ -143,7 +143,7 @@ export default function MultiActionAreaCard() {
                 
                 <CardActions>
                     <Button size="small" color="primary">
-                    Share
+                    Learn more
                     </Button>
                 </CardActions>
                 </Card>
