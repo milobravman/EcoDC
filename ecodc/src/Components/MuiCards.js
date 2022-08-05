@@ -124,12 +124,27 @@ export default function MultiActionAreaCard() {
 
                 <Card className="float-child" sx={{ maxWidth: 345 , minWidth: 345}}>
             
+                    {/* <CardMedia
+                    component="img"
+                    height="250"
+                    width="200"
+                    image="/images/water.png"
+                    alt="green iguana"
+                    sx={{ 
+                        position: 'absolute',
+                        top: '0px' 
+                    }}
+                    /> */}
                     <CardMedia
                     component="img"
                     height="250"
                     width="200"
                     image="/images/water.png"
                     alt="green iguana"
+                    // sx={{ 
+                    //     position: 'absolute',
+                    //     top: '0px' 
+                    // }}
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
