@@ -28,7 +28,7 @@ export default function MultiActionAreaCard() {
                     component="img"
                     height="250"
                     width="345"
-                    image="/images/park.png"
+                    image="/images/water.png"
                     alt="green iguana"
                     />
                     <CardContent>
@@ -36,8 +36,7 @@ export default function MultiActionAreaCard() {
                         Water
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Streams
-                        Rivers + streams
+                        Rivers, Streams, Stormwater 
                     </Typography>
                     </CardContent>
                 
@@ -61,9 +60,8 @@ export default function MultiActionAreaCard() {
                         Climate Change
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Renewable energy
-
-                        Lower carbon footprint
+                        Car Alternatives,
+                        Renewable Energy
                     </Typography>
                     </CardContent>
                 
@@ -86,9 +84,8 @@ export default function MultiActionAreaCard() {
                         Greenery
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Trees
-                        Garden/Yards
-                        Parksd
+                        Trees,
+                        Native & Invasive Plants
                     </Typography>
                     </CardContent>
                 
@@ -111,7 +108,7 @@ export default function MultiActionAreaCard() {
                         Waste
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Recycling
+                        Recycling, Trash Pick-up
                     </Typography>
                     </CardContent>
 
@@ -151,8 +148,7 @@ export default function MultiActionAreaCard() {
                         Outdoor Life
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        bike paths
-                        Bulk Board
+                    Hikes, Bikes, Boating, Fishing
                     </Typography>
                     </CardContent>
                 

@@ -9,3 +9,6 @@ I still have not solved the onHover bug with the MUI menu component. Notably the
 I found out out to host any react frontend on your network using "HOST=0.0.0.0 npm run start" to launch the app and the computers IP and port as the url. so to host this project I the url would be http://10.0.1.18:3000. also not that you need to turn off the firewall for it to work
 
 In package.json I can add "proxy": "http://localhost:3001" to get around CORES errors until I actually need to solve it.
+
+
+&mdash; is a long dash in HTML

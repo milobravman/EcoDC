@@ -27,7 +27,7 @@ export default function ControlledAccordions() {
           <span className='bold underline large'>Recycle Better</span>
           </Typography>
           <Typography > 
-            <span className='regular '> &mdash; Our Goal: </span>
+            <span className='regular '> The Goal: </span>
             <span className='regular blue'>Everything that </span>
             <span className='regular blue bold underline'>can</span>
             <span className='regular blue'> get recycled goes into the Blue Bin. </span>
@@ -40,7 +40,7 @@ export default function ControlledAccordions() {
           <Typography>
             {/* test goes here */}
             <div>
-              <span className='underline' id ='keep'> Keep non-recyclables out of your blue bin.</span>
+              <span className='underline bold' id ='keep'> Keep non-recyclables out of your blue bin.</span>
               <span className='italics bold' id ='non-r'> Non-recyclables spoil the bin AND MAYBE THE WHOLE TRUCK!</span>
             </div>
             <div>
@@ -48,15 +48,29 @@ export default function ControlledAccordions() {
               <ol>
                 <li>
                   <span className='bold'> The usual stuff: </span>
-                  <span>paper, cardboard, metal cans, plastic bottles & jugs, milk cartons, glass </span>
+                  <span>paper, cardboard, metal, plastic bottles & jugs, milk cartons, glass </span>
                 </li>
                 <li>
                   <span className='bold'> Pizza boxes </span>
                   <span>(first remove crusts and small plastic items—grease is fine!)</span>
                 </li>
                 <li>
+                  <span className='bold'> All junk mail, </span>
+                  <span>even the glossy stuff</span>
+                </li>
+                <li>
+                  <span className='bold'>Paper towel and toilet paper rolls</span>
+                  <span></span>
+                </li>
+                <li>
+                  <span className='bold'>Coffee cups </span>
+                  <span>(plastic lids removed) </span>
+                </li>
+
+
+                <li>
                   <span className='bold'> Any rigid plastic </span>
-                  <span className='bold'>that isn't PVC, any color </span>
+                  <span >that isn't #3, any color </span>
                 </li>
                 <li>
                   <span className='bold'> Plastic bottle caps</span>
@@ -83,8 +97,8 @@ export default function ControlledAccordions() {
                   <span className='bold'> Anything smaller than 2x2 inches.</span>
                 </li>
                 <li>
-                  <span className='bold italics'> Anything you're unsure of. </span>
-                  <span> When in doubt, throw it out.</span>
+                  <span className='bold underline'> Anything you're unsure of</span>
+                  <span className='otherBlue'>. Don't guess, When in doubt, throw it out.</span>
                 </li>
               </ol>
             </div>
