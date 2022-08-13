@@ -8,6 +8,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import InteralAccordian from './InterialAccordian'
 import More from './InternialAccordian2'
 
+
+
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -42,13 +44,14 @@ export default function ControlledAccordions() {
             <div>
               <span className='underline bold' id ='keep'> Keep non-recyclables out of your blue bin.</span>
               <span className='italics bold' id ='non-r'> Non-recyclables spoil the bin AND MAYBE THE WHOLE TRUCK!</span>
+              <audio src='/public/ecoDc_audio.mp3'> demo </audio>
             </div>
             <div>
               <h3 className='green'>Goes in!</h3>
               <ol>
                 <li>
                   <span className='bold'> The usual stuff: </span>
-                  <span>paper, cardboard, metal, plastic bottles & jugs, milk cartons, glass </span>
+                  <span>paper, cardboard, aluminum or tin cans, plastic bottles & jugs, milk cartons, glass </span>
                 </li>
                 <li>
                   <span className='bold'> Pizza boxes </span>
@@ -70,7 +73,7 @@ export default function ControlledAccordions() {
 
                 <li>
                   <span className='bold'> Any rigid plastic </span>
-                  <span >that isn't #3, any color </span>
+                  <span >that isn't #3, including most takeout containers and shampoo bottles, of any color </span>
                 </li>
                 <li>
                   <span className='bold'> Plastic bottle caps</span>
@@ -83,7 +86,8 @@ export default function ControlledAccordions() {
               <ol>
                 <li>
                   <span className='bold'> Plastic bags. </span>
-                  <span> If it's in a plastic bag, it gets trashed.</span>
+                  <span className='red'>Never put your recycling in a plastic bag!</span>
+                  <span> If you do, it gets trashed.</span>
                 </li>
                 <li>
                   <span className='bold'> Wet cardboard. </span>
@@ -91,10 +95,14 @@ export default function ControlledAccordions() {
                 </li>
                 <li>
                   <span className='bold'>  Flexible plastic. </span>
-                  <span>If it's plastic wrap or dry cleaning bags, it gets trashed. </span>
+                  <span>If it's smushable like plastic wrap or a tooth paste tube, it gets trashed. </span>
+                </li>
+                <li>
+                  <span className='bold'> Styrofoam. </span>
                 </li>
                 <li>
                   <span className='bold'> Anything smaller than 2x2 inches.</span>
+                  <span> This includes paper metal or cardboard, because it's too small for the sorter.</span>
                 </li>
                 <li>
                   <span className='bold underline'> Anything you're unsure of</span>
