@@ -14,12 +14,16 @@ export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
-    if (panel === "panel1" && isExpanded){
-      var recycleAudio = document.getElementById("recycleAudio");
-      recycleAudio.pause();
-      console.log("hello");
-    }
     setExpanded(isExpanded ? panel : false);
+    var recycleAudio = document.getElementById("recycleAudio");
+    if (panel === "panel1" && isExpanded === true){
+      recycleAudio.play();
+    }
+    console.log (isExpanded)
+    if (panel === "panel1" && isExpanded === false){
+      recycleAudio.pause();
+    }
+
   };
 
   return (
@@ -49,6 +53,7 @@ export default function ControlledAccordions() {
             <div>
               <span className='underline bold' id ='keep'> Keep non-recyclables out of your blue bin.</span>
               <span className='italics bold' id ='non-r'> Non-recyclables spoil the bin AND MAYBE THE WHOLE TRUCK!</span>
+              <br></br>
               <audio id='recycleAudio' src='audio/ecoDc_audio.mp3' controls>
               </audio>
             </div>
