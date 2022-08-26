@@ -38,7 +38,7 @@ function EmailForm() {
           <TextField
           fullWidth
           id="outlined-textarea"
-          label="Contacts us"
+          label="Contact us"
           placeholder="Placeholder"
           multiline
           sx={{

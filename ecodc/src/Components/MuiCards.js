@@ -136,7 +136,7 @@ export default function MultiActionAreaCard() {
                     component="img"
                     height="250"
                     width="200"
-                    image="/images/water.png"
+                    image="/images/park.png"
                     alt="green iguana"
                     // sx={{ 
                     //     position: 'absolute',

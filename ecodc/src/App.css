@@ -85,8 +85,8 @@
   font-size: 20px;
 }
 
-#LandingTitle{
-  margin-top: 5%;
+.LandingTitle{
+  margin-top: 2.5%;
   text-align: center;
 }
 
@@ -108,4 +108,8 @@
 
 body{
   font-size: large;
+}
+
+#wendypoo{
+  font-size: 35px;
 }

@@ -38,31 +38,29 @@ export default function ControlledAccordions() {
           <span className='bold underline large'>Recycle Better</span>
           </Typography>
           <Typography > 
-            <span className='regular '> The Goal: </span>
+            {/* <span className='regular '> The Goal: </span>
             <span className='regular blue'>Everything that </span>
             <span className='regular blue bold underline'>can</span>
             <span className='regular blue'> get recycled goes into the Blue Bin. </span>
             <span className='regular red'>Whatever could get the Blue Bin</span>
             <span className='regular red bold italics'> banished to trash </span>
-            <span className='regular red'>stays out</span>
+            <span className='regular red'>stays out</span> */}
+            <span className='underline bold regular blue' id ='keep'> Keep non-recyclables out of your blue bin.</span>
+            <span className='italics bold regular red' id ='non-r'> Non-recyclables spoil the bin AND MAYBE THE WHOLE TRUCK!</span>
+
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             {/* test goes here */}
-            <div>
-              <span className='underline bold' id ='keep'> Keep non-recyclables out of your blue bin.</span>
-              <span className='italics bold' id ='non-r'> Non-recyclables spoil the bin AND MAYBE THE WHOLE TRUCK!</span>
-              <br></br>
               <audio id='recycleAudio' src='audio/ecoDc_audio.mp3' controls>
               </audio>
-            </div>
             <div>
               <h3 className='green'>Goes in!</h3>
               <ol>
                 <li>
                   <span className='bold'> The usual stuff: </span>
-                  <span>paper, cardboard, aluminum or tin cans, plastic bottles & jugs, milk cartons, glass </span>
+                  <span>paper, cardboard, aluminum or tin cans, plastic bottles & jugs, milk cartons, glass. Needs to be reasonably clean.</span>
                 </li>
                 <li>
                   <span className='bold'> Pizza boxes </span>
@@ -73,7 +71,7 @@ export default function ControlledAccordions() {
                   <span>even the glossy stuff</span>
                 </li>
                 <li>
-                  <span className='bold'>Paper towel and toilet paper rolls</span>
+                  <span className='bold'>Paper towel rolls and toilet paper rolls</span>
                   <span></span>
                 </li>
                 <li>
@@ -84,7 +82,7 @@ export default function ControlledAccordions() {
 
                 <li>
                   <span className='bold'> Any rigid plastic </span>
-                  <span >that isn't #3, including most takeout containers and shampoo bottles, of any color </span>
+                  <span >that isn't #3, including most takeout containers and shampoo bottles, of any color. See Pictures </span>
                 </li>
                 <li>
                   <span className='bold'> Plastic bottle caps</span>
@@ -98,26 +96,24 @@ export default function ControlledAccordions() {
                 <li>
                   <span className='bold'> Plastic bags. </span>
                   <span className='red'>Never put your recycling in a plastic bag!</span>
-                  <span> If you do, it gets trashed.</span>
                 </li>
                 <li>
                   <span className='bold'> Wet cardboard. </span>
-                  <span> If it's wet, it gets trashed.</span>
                 </li>
                 <li>
                   <span className='bold'>  Flexible plastic. </span>
-                  <span>If it's smushable like plastic wrap or a tooth paste tube, it gets trashed. </span>
+                  <span>If it's smushable like plastic wrap or a tooth paste tube. See Picture </span>
                 </li>
                 <li>
                   <span className='bold'> Styrofoam. </span>
                 </li>
                 <li>
                   <span className='bold'> Anything smaller than 2x2 inches.</span>
-                  <span> This includes paper metal or cardboard, because it's too small for the sorter.</span>
+                  <span> This includes paper, metal or cardboard, because it's too small for the sorter.</span>
                 </li>
                 <li>
                   <span className='bold underline'> Anything you're unsure of</span>
-                  <span className='otherBlue'>. Don't guess, When in doubt, throw it out.</span>
+                  <span className='otherBlue'>. Don't guess! When in doubt, throw it out.</span>
                 </li>
               </ol>
             </div>
