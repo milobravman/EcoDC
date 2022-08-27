@@ -19,12 +19,16 @@ export default function ControlledAccordions() {
     if (panel === "panel1" && isExpanded === true){
       recycleAudio.play();
     }
-    console.log (isExpanded)
     if (panel === "panel1" && isExpanded === false){
       recycleAudio.pause();
     }
 
   };
+
+  const changePicture = () => {
+    document.getElementById("cyclePhoto").src = "./images/flexable_plastic.jpg"
+    document.getElementById("photoCycleTitle").innerHTML = "Flexible Plastic"
+  }
 
   return (
     <div id ="Recycle-Info">
@@ -82,7 +86,7 @@ export default function ControlledAccordions() {
 
                 <li>
                   <span className='bold'> Any rigid plastic </span>
-                  <span >that isn't #3, including most takeout containers and shampoo bottles, of any color. <a href='./images/ridged_plastic.jpg'>See Pictures</a> </span>
+                  <span >that isn't #3, including most takeout containers and shampoo bottles, of any color. <a href='./images/ridged_plastic.jpg' target="_blank">See Pictures</a> </span>
                 </li>
                 <li>
                   <span className='bold'> Plastic bottle caps</span>
@@ -90,9 +94,10 @@ export default function ControlledAccordions() {
                 </li>
               </ol>
             </div>
-            <div id="photoHolder">
-              <img src="./images/ridged_plastic.jpg" alt=''></img>
-            </div>
+            {/* <div id="photoHolder">
+              <h5 id="photoCycleTitle">Ridged Plastic</h5>
+              <img id="cyclePhoto" src="./images/ridged_plastic.jpg" alt=''></img>
+            </div> */}
             <div>
               <h3 className='red'>Stays out!</h3>
               <ol>
@@ -105,7 +110,11 @@ export default function ControlledAccordions() {
                 </li>
                 <li>
                   <span className='bold'>  Flexible plastic. </span>
-                  <span>If it's smushable like plastic wrap or a tooth paste tube. See Picture </span>
+                  <span>If it's smushable like plastic wrap or a tooth paste tube. See Picture 
+                    <a href='./images/flexable_plastic.jpg'>1</a>
+                    <span> or </span>
+                    <a href='./images/fexable_plastic.jpg1'>2</a>
+                  </span>
                 </li>
                 <li>
                   <span className='bold'> Styrofoam. </span>

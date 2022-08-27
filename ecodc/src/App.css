@@ -37,8 +37,8 @@
 }
 
 #Recycle-Info{
-  width: 90%;
-  margin-left: 5%;
+  width: 75%;
+  margin-left: 12.5%;
 }
 
 #textField{
@@ -116,11 +116,22 @@ body{
 
 #photoHolder{
   border:1px solid black;
-  max-width: fit-content;
+  width: fit-content;
   float: right;
+  margin-top: -9%;
+  margin-right: 2%;
+}
+
+#cyclePhoto{
+  width: 300px;
+  max-height: 250px;
 }
 
 #AccMui-goesIn-div{
   max-width: 1000px;
 }
 
+#photoCycleTitle{
+  text-align: center;
+  margin: 0%;
+}
