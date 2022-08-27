@@ -37,8 +37,8 @@
 }
 
 #Recycle-Info{
-  width: 70%;
-  margin-left: 15%;
+  width: 90%;
+  margin-left: 5%;
 }
 
 #textField{
@@ -113,3 +113,14 @@ body{
 #wendypoo{
   font-size: 35px;
 }
+
+#photoHolder{
+  border:1px solid black;
+  max-width: fit-content;
+  float: right;
+}
+
+#AccMui-goesIn-div{
+  max-width: 1000px;
+}
+

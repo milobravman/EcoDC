@@ -55,7 +55,7 @@ export default function ControlledAccordions() {
             {/* test goes here */}
               <audio id='recycleAudio' src='audio/ecoDc_audio.mp3' controls>
               </audio>
-            <div>
+            <div id = "AccMui-goesIn-div">
               <h3 className='green'>Goes in!</h3>
               <ol>
                 <li>
@@ -82,13 +82,16 @@ export default function ControlledAccordions() {
 
                 <li>
                   <span className='bold'> Any rigid plastic </span>
-                  <span >that isn't #3, including most takeout containers and shampoo bottles, of any color. See Pictures </span>
+                  <span >that isn't #3, including most takeout containers and shampoo bottles, of any color. <a href='./images/ridged_plastic.jpg'>See Pictures</a> </span>
                 </li>
                 <li>
                   <span className='bold'> Plastic bottle caps</span>
                   <span> (just put them back on bottle)</span>
                 </li>
               </ol>
+            </div>
+            <div id="photoHolder">
+              <img src="./images/ridged_plastic.jpg" alt=''></img>
             </div>
             <div>
               <h3 className='red'>Stays out!</h3>
