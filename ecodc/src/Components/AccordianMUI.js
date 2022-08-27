@@ -110,11 +110,11 @@ export default function ControlledAccordions() {
                 </li>
                 <li>
                   <span className='bold'>  Flexible plastic. </span>
-                  <span>If it's smushable like plastic wrap or a tooth paste tube. See Picture 
-                    <a href='./images/flexable_plastic.jpg'>1</a>
-                    <span> or </span>
-                    <a href='./images/fexable_plastic.jpg1'>2</a>
-                  </span>
+                  <span>If it's smushable like plastic wrap or a tooth paste tube. See Picture </span>
+                    <a href='./images/flexable_plastic.jpg' target="_blank">1</a>
+                    <span> and </span>
+                    <a href='./images/fexable_plastic1.jpg' target="_blank">2</a>
+
                 </li>
                 <li>
                   <span className='bold'> Styrofoam. </span>
