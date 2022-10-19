@@ -11,8 +11,8 @@ function Recycle() {
 
     return (
         <>
-            <Button id="homeButton" onClick={goHome}>HOME</Button>
             <header className="App-header">
+                <Button id="homeButton" onClick={goHome}>HOME</Button>
                 <h3 id= "title" className='App-head'>Eco Dc</h3>
             </header>
             <h2 id = "Recycling-page-title" className="sub-title">Recycling In DC</h2>
