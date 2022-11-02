@@ -41,7 +41,7 @@ export default function MultiActionAreaCard() {
                     </CardContent>
                 
                 <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" disabled='true'>
                     Learn more
                     </Button>
                 </CardActions>
@@ -66,7 +66,7 @@ export default function MultiActionAreaCard() {
                     </CardContent>
                 
                 <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" disabled='true'>
                     Learn more
                     </Button>
                 </CardActions>
@@ -90,7 +90,7 @@ export default function MultiActionAreaCard() {
                     </CardContent>
                 
                 <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" disabled='true'>
                     Learn more
                     </Button>
                 </CardActions>
@@ -153,7 +153,7 @@ export default function MultiActionAreaCard() {
                     </CardContent>
                 
                 <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" disabled='true'>
                     Learn more
                     </Button>
                 </CardActions>

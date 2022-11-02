@@ -157,15 +157,15 @@ export default function ControlledAccordions() {
             <span className='bold underline large'>Recycle Bigger</span>
           </Typography>
            
-          <Typography sx={{ marginTop: '60px', marginBottom: '60px'}}>
-            <span className='regular green bold'>Beyond the bin, </span>
-            <span className='regular'>there's a whole world of opportunities to recycle </span>
-            <span className='regular green'>food waste, </span>
-            <span className='regular blue'>flexible plastic, </span>
-            <span className='regular green'>yard waste, </span>
-            <span className='regular blue'>paint, </span>
-            <span className='regular green'>glass, </span>
-            <span className='regular blue'>batteries, and more!</span>
+          <Typography sx={{ marginTop: '60px', marginBottom: '60px', fontSize: 22}}>
+            <span className='green bold'>Beyond the bin, </span>
+            <span>there's a whole world of opportunities to recycle </span>
+            <span className='green'>food waste, </span>
+            <span className='blue'>flexible plastic, </span>
+            <span className='green'>yard waste, </span>
+            <span className='blue'>paint, </span>
+            <span className='green'>glass, </span>
+            <span className='blue'>batteries, and more!</span>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -183,10 +183,10 @@ export default function ControlledAccordions() {
           <Typography sx={{ width: '33%', flexShrink: 0, marginTop: '60px', marginBottom: '60px' }}>
           <span className='bold underline large'>Recycle DC</span>
           </Typography>
-          <Typography sx={{ marginTop: '60px', marginBottom: '60px' }}>
-            <span className='regular '>We can do much more as a city than we can do one-by-one. </span>
-            <span className='regular bold green'>Next-Gen Progress </span>
-            <span className='regular '>comes from advocacy, enforcement, and regulations.</span>
+          <Typography sx={{ marginTop: '60px', marginBottom: '60px', fontSize: 22 }}>
+            <span >We can do much more as a city than we can do one-by-one. </span>
+            <span className='bold green'>Next-Gen Progress </span>
+            <span >comes from advocacy, enforcement, and regulations.</span>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
