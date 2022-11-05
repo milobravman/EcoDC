@@ -7,8 +7,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 // import testImage from './logo192.png'
 import InteralAccordian from './InterialAccordian'
 import More from './InternialAccordian2'
-import { color } from '@mui/system';
-import { green } from '@mui/material/colors';
+// import { color } from '@mui/system';
+// import { green } from '@mui/material/colors';
 
 
 
@@ -27,10 +27,10 @@ export default function ControlledAccordions() {
 
   };
 
-  const changePicture = () => {
-    document.getElementById("cyclePhoto").src = "./images/flexable_plastic.jpg"
-    document.getElementById("photoCycleTitle").innerHTML = "Flexible Plastic"
-  }
+  // const changePicture = () => {
+  //   document.getElementById("cyclePhoto").src = "./images/flexable_plastic.jpg"
+  //   document.getElementById("photoCycleTitle").innerHTML = "Flexible Plastic"
+  // }
 
   return (
     <div id ="Recycle-Info">

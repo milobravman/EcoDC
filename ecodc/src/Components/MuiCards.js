@@ -30,7 +30,9 @@ export default function MultiActionAreaCard() {
                     width="345"
                     image="/images/water.png"
                     alt="green iguana"
+                    className='inDevelopment'
                     />
+                    <span className='inDevTxt'>In Development</span>
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         Water
@@ -54,7 +56,9 @@ export default function MultiActionAreaCard() {
                     height="200"
                     image="/images/emissions.png"
                     alt="green iguana"
+                    className='inDevelopment'
                     />
+                    <span className='inDevTxt'>In Development</span>
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         Climate Change
@@ -78,7 +82,9 @@ export default function MultiActionAreaCard() {
                     height="250"
                     image="/images/greenery.png"
                     alt="green iguana"
+                    className='inDevelopment'
                     />
+                    <span className='inDevTxt'>In Development</span>
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         Greenery
@@ -120,29 +126,15 @@ export default function MultiActionAreaCard() {
                 </Card>
 
                 <Card className="float-child" sx={{ maxWidth: 345 , minWidth: 345}}>
-            
-                    {/* <CardMedia
-                    component="img"
-                    height="250"
-                    width="200"
-                    image="/images/water.png"
-                    alt="green iguana"
-                    sx={{ 
-                        position: 'absolute',
-                        top: '0px' 
-                    }}
-                    /> */}
                     <CardMedia
                     component="img"
                     height="250"
                     width="200"
                     image="/images/park.png"
                     alt="green iguana"
-                    // sx={{ 
-                    //     position: 'absolute',
-                    //     top: '0px' 
-                    // }}
+                    className='inDevelopment'
                     />
+                    <span className='inDevTxt'>In Development</span>
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         Outdoor Life

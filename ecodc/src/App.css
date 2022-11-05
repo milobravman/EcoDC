@@ -136,3 +136,14 @@ body{
   text-align: center;
   margin: 0%;
 }
+
+.inDevelopment{
+  filter: grayscale(1);
+}
+
+.inDevTxt{
+  position: relative;
+  top: -33%;
+  right: -26%;
+  font-size: 24px;
+}
