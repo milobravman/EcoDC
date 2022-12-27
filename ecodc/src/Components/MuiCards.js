@@ -13,7 +13,7 @@ export default function MultiActionAreaCard() {
 
 
     const HandleRecycle = (event) =>{
-        window.location.href = "/Recycle"
+        window.location.href = "EcoDC/Recycle"
       }
   
     return (
@@ -28,7 +28,7 @@ export default function MultiActionAreaCard() {
                     component="img"
                     height="250"
                     width="345"
-                    image="/images/water.png"
+                    image="EcoDC/images/water.png"
                     alt="green iguana"
                     className='inDevelopment'
                     />
@@ -54,7 +54,7 @@ export default function MultiActionAreaCard() {
                     <CardMedia
                     component="img"
                     height="200"
-                    image="/images/emissions.png"
+                    image="EcoDC/images/emissions.png"
                     alt="green iguana"
                     className='inDevelopment'
                     />
@@ -80,7 +80,7 @@ export default function MultiActionAreaCard() {
                     <CardMedia
                     component="img"
                     height="250"
-                    image="/images/greenery.png"
+                    image="EcoDC/images/greenery.png"
                     alt="green iguana"
                     className='inDevelopment'
                     />
@@ -106,7 +106,7 @@ export default function MultiActionAreaCard() {
                     <CardMedia
                     component="img"
                     height="250"
-                    image="/images/recycling_can.jpg"
+                    image="EcoDC/images/recycling_can.jpg"
                     alt="green iguana"
                     />
                     <CardContent>
@@ -130,7 +130,7 @@ export default function MultiActionAreaCard() {
                     component="img"
                     height="250"
                     width="200"
-                    image="/images/park.png"
+                    image="EcoDC/images/park.png"
                     alt="green iguana"
                     className='inDevelopment'
                     />

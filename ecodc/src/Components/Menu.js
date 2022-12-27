@@ -19,7 +19,7 @@ export default function BasicMenu() {
   };
 
   const HandleRecycle = (event) =>{
-    window.location.href = "/Recycle"
+    window.location.href = "EcoDC/Recycle"
   }
 
   return (

@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/EcoDC" element={<Home/>}/>
-        <Route path="/Recycle" element={<Recycle/>}/>
+        <Route path="/EcoDC/Recycle" element={<Recycle/>}/>
       </Routes>
     </div>
   );

@@ -10,7 +10,7 @@ function Home() {
         <>
             <header className="App-header">
                 {/* <Menu id= "menu" className="App-head"/> */}
-                <Button id="homeButton" onClick={console.log("hi")}>HOME</Button>
+                <Button id="homeButton">HOME</Button>
                 <h3 id= "title" className='App-head'>Eco Dc</h3>
             </header>
             <LandingPage/>
