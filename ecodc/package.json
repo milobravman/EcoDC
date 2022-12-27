@@ -1,6 +1,7 @@
 {
   "name": "ecodc",
   "version": "0.1.0",
+  "homepage": "http://milolbravman.github.io/EcoDC",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
