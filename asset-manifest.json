@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/EcoDC/static/css/main.b318a347.css",
-    "main.js": "/EcoDC/static/js/main.05afbd75.js",
+    "main.js": "/EcoDC/static/js/main.7b18cce9.js",
     "static/js/787.e57105bb.chunk.js": "/EcoDC/static/js/787.e57105bb.chunk.js",
     "index.html": "/EcoDC/index.html",
     "main.b318a347.css.map": "/EcoDC/static/css/main.b318a347.css.map",
-    "main.05afbd75.js.map": "/EcoDC/static/js/main.05afbd75.js.map",
+    "main.7b18cce9.js.map": "/EcoDC/static/js/main.7b18cce9.js.map",
     "787.e57105bb.chunk.js.map": "/EcoDC/static/js/787.e57105bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b318a347.css",
-    "static/js/main.05afbd75.js"
+    "static/js/main.7b18cce9.js"
   ]
 }
