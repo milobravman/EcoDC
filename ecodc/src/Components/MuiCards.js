@@ -28,7 +28,7 @@ export default function MultiActionAreaCard() {
                     component="img"
                     height="250"
                     width="345"
-                    image="EcoDC/images/water.png"
+                    image="images/water.png"
                     alt="green iguana"
                     className='inDevelopment'
                     />
