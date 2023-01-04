@@ -13,7 +13,7 @@ export default function MultiActionAreaCard() {
 
 
     const HandleRecycle = (event) =>{
-        window.location.href = "/#/Recycle"
+        window.location.href = "#/Recycle"
       }
   
     return (
