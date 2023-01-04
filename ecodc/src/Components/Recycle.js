@@ -6,7 +6,7 @@ import Info from "./AccordianMUI"
 function Recycle() {
 
     const goHome = () => {
-        window.location.href = '/'
+        window.location.href = '/EcoDC'
     }
 
     return (

@@ -54,7 +54,7 @@ export default function MultiActionAreaCard() {
                     <CardMedia
                     component="img"
                     height="200"
-                    image="EcoDC/images/emissions.png"
+                    image="images/emissions.png"
                     alt="green iguana"
                     className='inDevelopment'
                     />
@@ -80,7 +80,7 @@ export default function MultiActionAreaCard() {
                     <CardMedia
                     component="img"
                     height="250"
-                    image="EcoDC/images/greenery.png"
+                    image="images/greenery.png"
                     alt="green iguana"
                     className='inDevelopment'
                     />
@@ -106,7 +106,7 @@ export default function MultiActionAreaCard() {
                     <CardMedia
                     component="img"
                     height="250"
-                    image="EcoDC/images/recycling_can.jpg"
+                    image="images/recycling_can.jpg"
                     alt="green iguana"
                     />
                     <CardContent>
@@ -130,7 +130,7 @@ export default function MultiActionAreaCard() {
                     component="img"
                     height="250"
                     width="200"
-                    image="EcoDC/images/park.png"
+                    image="images/park.png"
                     alt="green iguana"
                     className='inDevelopment'
                     />
